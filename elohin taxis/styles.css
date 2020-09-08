@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+            text-decoration: none;
+}
+
+ul{
+            list-style: none;
+}
+
+.contenedor1{
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            background: #ADE8F5;
+            border-bottom: 1px solid transparent;
+            box-shadow: 10px 10px 30px 0 rgba(75, 72, 72, 0.596);
+}
+
+/*Estilos navegación*/
+.navegacion{
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 105px;
+            margin-top: 10px;
+            overflow: hidden;
+            margin-left: 10px;
+            
+}
+
+.logo{
+            width: 120px;
+            height: 105px;
+}
+
+.contenedor1 ul{
+            display: flex;
+}
+
+.contenedor1 ul li{
+            padding: 10px;
+}
+
+.contenedor1 ul li a{
+            color: black;
+}
+
+.contenedor2{
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  overflow: hidden;
+  margin-top: 40px;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+  box-shadow: 10px 10px 30px 0 rgba(75, 72, 72, 0.596);
+  justify-content: space-evenly 
+}
+
+.imagen1{
+  width: 700px;
+}
+
+.contenedor3{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 40px;
+  padding: 20px;
+  border-bottom: 1px solid transparent;
+  box-shadow: 10px 10px 30px 0 rgba(75, 72, 72, 0.596);
+}
+
+.titulo2{
+  text-align: center;
+}
+
+.contenedor4{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 40px;
+  padding: 20px;
+  border-bottom: 1px solid transparent;
+  box-shadow: 10px 10px 30px 0 rgba(75, 72, 72, 0.596);
+}
+
+.titulo3{
+  text-align: center;
+}
+
+.imagen2{
+  width: 100%;
+  height: 800px;
+}
+
+.titulo4{
+  text-align: center;
+}
+
+.contenedor5{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 40px;
+  padding: 20px;
+  border-bottom: 1px solid transparent;
+  box-shadow: 10px 10px 30px 0 rgba(75, 72, 72, 0.596);
+}
+
+.tarjetas{
+  display: flex;
+  text-justify: auto;
+}
+
+.imagen3{
+  width: 350px;
+  margin: 20px;
+  justify-content: right;
+}
+
+.contenedor6{
+  width: 90%;
+  max-width: 1200px;
+  background: #ADE8F5;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 40px;
+  padding: 20px;
+  border-bottom: 1px solid transparent;
+  box-shadow: 10px 10px 30px 0 rgba(75, 72, 72, 0.596);
+}
+
+.titulo5{
+  text-align: center;
+}
+
+/*Iconos de las redes sociales*/
+.container-redes{
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+}
+
+.container-redes img{
+  width: 60px;
+  background: rgba(0, 0, 0, 0.0);
+  cursor: pointer;
+  border-radius: 100%;
+  transition: all 300ms;
+}
+
+.container-redes a:hover img{
+  background: rgba(0, 0, 0, 0.10);
+}
