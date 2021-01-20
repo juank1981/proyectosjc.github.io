@@ -164,3 +164,14 @@ ul{
 .container-redes a:hover img{
   background: rgba(0, 0, 0, 0.10);
 }
+
+@media screen and (max-width:800px){
+  .contenedor2 .imagen1{
+    width: 200px;
+  }
+
+  .contenedor5 .tarjetas{
+    align-content: center;
+    flex-wrap: wrap;
+  }
+}
